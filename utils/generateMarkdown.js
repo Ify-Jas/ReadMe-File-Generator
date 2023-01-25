@@ -3,27 +3,20 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Description
-  ${data.description}`
+  ${data.description}
 
-  const toc = `## Table of Content`
-  if(data.content.Installation){
-    toc+=`*[Installation](#Installation)`
-  }
-  if(data.content.Usage){
-    toc+=`*[Usage](#Usage)`
-  }
-  if(data.content.License){
-    toc+=`*[License](#License)`
-  }
-  if(data.content.Contributors){
-    toc+=`*[Contributors](#Contributors)`
-  }
-  if(data.content.Contacts){
-    toc+=`*[Contacts](#Contacts)`
-  }
+  ## Table of Content
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributors](#Contributors)
+  * [Tests](#Tests)
+  * [Contacts](#Contacts)
+  
+  
 
   
-  `## Installation
+  ## Installation
   ${data.installation}
 
   
