@@ -25,7 +25,9 @@
   ## Usage
   See video of a test run below;
 
-  <img src='../assets/readMeGenerator.webm'>
+  ![ReadMe generator video](readMeGenerator.gif)
+
+
 
 
   
